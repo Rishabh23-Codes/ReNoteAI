@@ -118,11 +118,8 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Required: a long random string for signing JWTs
-# Generate one with: python -c "import secrets; print(secrets.token_hex(32))"
 SECRET_KEY=your_super_secret_key_here
 ```
-
-> **Never commit `.env` to version control.** Add it to `.gitignore`.
 
 ---
 
